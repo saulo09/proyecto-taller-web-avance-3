@@ -1,0 +1,57 @@
+#misionyvision {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+#misionyvision img {
+    width: 20%;
+    height: 20%;
+    
+}
+
+#bannernosotros {
+    margin-top: 50px;
+    position: relative;
+}
+
+#bannernosotros img {
+    width: 100%;
+    height: 100%;
+}
+
+#bannernosotros .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(0, 0, 0);
+}
+
+#bannernosotros h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+#info {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-valor {
+    margin: 20px;
+}
+
+.info-valor img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}

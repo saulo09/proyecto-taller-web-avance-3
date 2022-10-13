@@ -1,0 +1,20 @@
+#tienda_r {
+    text-align: center;
+}
+
+#tienda_r .redes {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.logo {
+    margin: 5px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    border: 7px solid #fff;
+}

@@ -1,0 +1,30 @@
+
+.novedades{
+    font: 3rem oblique bold cursive;
+    background-color: royalblue;
+    color: azure;
+    padding:6px;
+    text-align: center;
+}
+.tendencias{
+    font: 3rem oblique bold cursive;
+    background-color: royalblue;
+    color: azure;
+    padding:6px;
+    text-align: center;
+}
+.comprar{
+    color: black; 
+    background-color: white;
+    border-radius: 8px;
+    padding: 2px;
+    text-decoration: none;
+    font: 1rem  ;
+    text-decoration: underline;
+}
+.comprar:hover {
+    color:white;
+    background-color: black;
+    transition-duration: 100ms;
+
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorias</title>
+    <link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.10.0/css/all.css'/>
+    <script src="https://kit.fontawesome.com/8667fb2b0f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="StyleCategorias.css">
+</head>
+<style>
+    h1{
+        background-color: black;
+        color: red;
+    }
+    nav{
+        background-color: #16a085;
+        padding: 5px;
+        width: 100%;
+        height: 60px;
+    }
+    input{
+ width: 550px;
+ height: 50px;
+    }
+    a{
+           color: navajowhite; 
+           text-align: center;
+           background-color: #16A085;
+           border-radius: 8px;
+           padding: 2px;
+           text-decoration: none;
+        }
+
+a:hover{
+            color:#16A085;
+            background-color: navajowhite;
+            transition-duration: 100ms;
+        }
+    .img-center{
+        text-align: center;
+    }
+</style>
+
+<body bgcolor="pink">
+    <header>
+        <center> <h1> <font face="monotype corsiva" size = "200"> <u> Fashion </h1></font></u></center>
+    </header>
+    <!--referencias-->
+    <nav>
+        <h2>
+            <i class="fa-solid fa-bars"></i>&nbsp;
+            <a href="index.html">Inicio</a> &nbsp;
+            <a href="nosotros.html">Nosotros</a>
+            <a href="Categorias.html">Categorias</a>
+            <a href="contacto.html">Contactanos</a>
+            
+            &nbsp;|&nbsp;
+            <a>Carrito</a><i class="fa-solid fa-cart-shopping"></i>&nbsp;|&nbsp;
+
+            <a href="inicioseccion.html"> Iniciar Sesión</a><i class="fa-solid fa-user"></i>
+        </h2>
+    </nav>
+<hr>
+
+</hr>
+    <section class="container">
+        <form>
+            <i class="fas fa-search"></i>
+            <input type="text" name="" id="search-item" placeholder="Search product" onkeyup="search()">
+        </form>
+
+        <div class="product-list" id="product-list">
+
+            <div class="product">
+                <img src="img/imgcategorias/pantalon1.webp" alt="">
+                <div class="p-details">
+                    <h2>Pantalon jean dama</h2>
+                    <h3>S/ 69.90</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/imgcategorias/s1.webp" alt="">
+                <div class="p-details">
+                    <h2>Polo algodón</h2>
+                    <h3>S/ 49.90</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/imgcategorias/zapatilla1.webp" alt="">
+                <div class="p-details">
+                    <h2>Zapatillas varon</h2>
+                    <h3>S/ 149.90</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/imgcategorias/t-s1.webp" alt="">
+                <div class="p-details">
+                    <h2>Polera</h2>
+                    <h3>S/ 119.90</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/imgcategorias/pantalon2.webp" alt="">
+                <div class="p-details">
+                    <h2>Pantalon varon</h2>
+                    <h3>S/ 69.90</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/imgcategorias/s2.webp" alt="">
+                <div class="p-details">
+                    <h2>Polo dama</h2>
+                    <h3>S/ 49.90</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/imgcategorias/zapatilla2.webp" alt="">
+                <div class="p-details">
+                    <h2>zapatillas dama</h2>
+                    <h3>S/ 149.90</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/imgcategorias/t-s2.webp" alt="">
+                <div class="p-details">
+                    <h2>cardigan</h2>
+                    <h3>S/ 69.90</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/imgcategorias/s3.webp" alt="">
+                <div class="p-details">
+                    <h2>Polo niña</h2>
+                    <h3>S/ 29.90</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/imgcategorias/zapatilla3.webp" alt="">
+                <div class="p-details">
+                    <h2>zapatillas niño</h2>
+                    <h3>S/ 54.90</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/imgcategorias/pantalon3.webp" alt="">
+                <div class="p-details">
+                    <h2>pantalon niña</h2>
+                    <h3>S/ 59.90</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/imgcategorias/t-s3.webp" alt="">
+                <div class="p-details">
+                    <h2>Casaca niño</h2>
+                    <h3>S/ 69.90</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="ScriptCategorias.js"></script>
+</body>
+
+</html>

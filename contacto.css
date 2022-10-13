@@ -1,0 +1,57 @@
+body{
+    background-image: url("imagenes/contacto.JPG");
+    background-image: image(imagenes/contacto);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin: 0;
+    align-content: center;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: #ff333f;
+    padding: 35px 20px;
+    box-sizing: border-box;
+    margin-top: 70px;
+    border-radius: 7px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin: 0;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 220px;
+    max-width: 100%;
+}
+
+#boton{
+    background: #222632;
+    color: #fff;
+    padding: 20px;
+}
+
+#boton hover {
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    form{
+        width: 100%;
+    }
+}
